@@ -14,4 +14,4 @@ class Ficha:
     def avanzar(self):
         pasos = self.dado.lanzar()
         self.posicion += pasos
-        print(self.posicion)
+        print('La ficha '+self.color+' avanzó a la casilla '+str(self.posicion))
